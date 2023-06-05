@@ -7,3 +7,7 @@ def test_multiply_numbers():
 def test_multiply_numbers():
     result = multiply_numbers(3, 3)
     assert result == 9
+
+def test_multiply_numbers():
+    result = multiply_numbers(4, 3)
+    assert result == 12
